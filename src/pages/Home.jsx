@@ -20,7 +20,7 @@ const Home = () => {
               left: 0
             }}
           >
-            {/* <EarthCanvas /> */}
+            <EarthCanvas />
           </div>
         </div>
       </motion.div>
