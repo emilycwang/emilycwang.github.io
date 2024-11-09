@@ -15,7 +15,7 @@ import {
     linkedin,
     violin,
     factory,
-    Testing,
+    testing,
     game,
 
 } from "../assets/icons";
@@ -182,7 +182,7 @@ export const projects = [
         link: 'public/In Search of Sadness.html',
     },
     {
-        iconUrl: Testing,
+        iconUrl: testing,
         theme: 'btn-back-blue',
         name: 'Data Entry App - Goldin App',
         description: 'Beta-tested and supported web app development for an orchestral diversity initiative, improving data entry efficiency for a team of 10 researchers through automated data scraping | React.js, Firestore',
