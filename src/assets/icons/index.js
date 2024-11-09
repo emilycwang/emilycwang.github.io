@@ -36,7 +36,7 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import factory from './factory.png'
 import violin from './violin.png'
-import Testing from './Testing.png'
+import Testing from './testing.png'
 import game from './game.png'
 
 export {
