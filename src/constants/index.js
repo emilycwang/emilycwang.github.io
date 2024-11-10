@@ -11,7 +11,6 @@ import {
     excel,
     github,
     html,
-    javascript,
     linkedin,
     violin,
     factory,
@@ -69,11 +68,6 @@ export const skills = [
     {
         imageUrl: html,
         name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
         type: "Frontend",
     },
 

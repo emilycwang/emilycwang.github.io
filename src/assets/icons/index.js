@@ -9,9 +9,6 @@ import arc from './arc.svg'
 import excel from './excel.svg'
 import github from './github.svg'
 import html from './html.svg'
-import javascript from './javascript.svg'
-import mongodb from './mongodb.svg'
-import tailwindcss from './tailwindcss.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
 import arrow from './arrow.svg'
@@ -33,9 +30,6 @@ export {
     excel,
     github,
     html,
-    javascript,
-    mongodb,
-    tailwindcss,
     linkedin,
     twitter,
     arrow,
