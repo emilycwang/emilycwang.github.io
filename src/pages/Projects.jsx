@@ -14,7 +14,7 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-        Here are some projects that I enjoyed building. I would appreciate any comments and feedback. 
+      Here are some projects I’ve had the pleasure of building, drawing on the skills I developed through my independent learning and coursework in my Elements of Computing and Applied Statistical Modeling certificates. I'd love to hear your thoughts and feedback! 
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>

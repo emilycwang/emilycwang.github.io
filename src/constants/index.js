@@ -117,7 +117,7 @@ export const experiences = [
         company_name: "University of Texas at Austin - UT Athletics, Innovations for Peace and Development Lab ",
         icon: ut,
         iconBg: "#BF5700",
-        date: "March 2024, June 2024, Jan 2024 - Present",
+        date: "March 2024 - June 2024, Jan 2024 - Present",
         points: [
             "Supported students in data science and managerial accounting coursework by creating Excel review sheets\
             and debugging code",
@@ -166,14 +166,14 @@ export const projects = [
         name: 'Predicting Ambient Air Pollution Concentrations Across the US',
         description: 'Trained and tested KNNs, Random Forest, Boosted Trees models to predict PM2.5 and visualize in\
         comprehensive HTML report |R markdown, tidycensus, leaflet, engines xgboost and ranger',
-        link: 'public/pm2.5.html',
+        link: '/pm2.5.html',
     },
     {
         iconUrl: violin,
         theme: 'btn-back-green',
         name: 'In Search of Sadness',
         description: 'Unveiling the saddest classical masterpieces using Spotify API and spotifyr.',
-        link: 'public/In Search of Sadness.html',
+        link: '/In Search of Sadness.html',
     },
     {
         iconUrl: testing,
