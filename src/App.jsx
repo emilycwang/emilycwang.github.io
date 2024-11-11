@@ -1,35 +1,53 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useRef, useEffect } from "react";
+import { Navbar, Footer } from "./components";
+import { About, Contact, Home, Projects } from "./pages";
+import './index.css';
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+  const homeRef = useRef(null);
+  const aboutRef = useRef(null);
+  const projectsRef = useRef(null);
+  const contactRef = useRef(null);
+
+  const offset = -70;
+  
+
+  const scrollToSection = (ref) => {
+    window.scrollTo({
+      top: ref.current.offsetTop + offset,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    // Reset scroll position to top on page load
+    window.scrollTo(0, 0);
+
+  }, []);
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <main >
+      <Navbar
+        scrollToSection={scrollToSection}
+        refs={{ homeRef, aboutRef, projectsRef, contactRef }} 
+      />
+      <section ref={homeRef} className="neo-brutalism-white pt-0">
+        <Home />
+      </section>
+      <section ref={aboutRef} className="neo-brutalism-white pt-0">
+        <About />
+      </section>
+      <section ref={projectsRef} className="neo-brutalism-white mb-0">
+        <Projects />
+      </section>
+      {/* <section ref={contactRef} className="neo-brutalism-white">
+        <Contact />
+      </section> */}
+      <Footer />
+  
 
-export default App
+    </main>
+  );
+};
+
+export default App;
