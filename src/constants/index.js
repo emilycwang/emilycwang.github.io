@@ -1,4 +1,4 @@
-import {usda,ut,wwf,iedu,hda } from "../assets/images";
+import {usda,ut,wwf,iedu,hda, ibm } from "../assets/images";
 import {
     contact,
     arc,
@@ -15,8 +15,7 @@ import {
     violin,
     factory,
     testing,
-    game,
-
+    game
 } from "../assets/icons";
 
 export const skills = [
@@ -131,13 +130,26 @@ export const experiences = [
         company_name: "US Department of Agriculture - National Agricultural Statistics Service",
         icon: usda,
         iconBg: "#a2d2ff",
-        date: "May 2024 - Present",
+        date: "May 2024 - January 2025",
         points: [
             "Proposed commodity estimates for national release using multi-frame survey methodology indications",
             "Conducted ad hoc analyses with Hyperion queries and built Excel API integrations to support publications",
             "Developed a network analysis script to improve travel efficiencies of 200+ workers",
         ],
         tools: "OSMnx, Network X"
+    },
+    {
+        title: "Strategic Initiatives Intern",
+        company_name: "IBM Global Procurement",
+        icon: ibm,
+        iconBg: "#a6c8ff",
+        date: "May 2025 - August 2025",
+        points: [
+            "Developed logic, Python script, and Streamlit tool to automate supplier relationship data cleanup",
+            "Coordinated User Acceptance Testing for enterprise chatbot resulting in successful sprint",
+            "Presented and documented usage, limitations, and developments of AI to analyze structured business data",
+        ],
+        tools: "Python, MS Office Suite, Watson Orchestrate, WXO ADK, Cognos Analytics"
     },
 ];
 

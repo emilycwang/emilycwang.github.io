@@ -20,6 +20,7 @@ const Navbar = ({ scrollToSection, refs }) => {
           <li><button onClick={() => scrollToSection(refs.homeRef)}>Home</button></li>
           <li><button onClick={() => scrollToSection(refs.aboutRef)}>About</button></li>
           <li><button onClick={() => scrollToSection(refs.projectsRef)}>Projects</button></li>
+          <li><button onClick={() => scrollToSection(refs.portfolioRef)}>Portfolio</button></li>
           <li><button onClick={() => scrollToSection(refs.contactRef)}>Contact</button></li>
         </ul>
       </div>

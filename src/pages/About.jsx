@@ -22,12 +22,12 @@ const About = () => {
 
       <div className='mt-2 flex flex-col gap-3 text-slate-500'>
         <p>
-          I am an Economics & Geography undergraduate student at the University of Texas at Austin. I'm also a huge fan of learning and I often partake in activites that involve maps, coding, music, and archery. <br/> Currently, I'm working on becoming a geospatial analyst (9-5) and amazing person (5-12). Thank you for viewing my website and please revisit in half a year to see the snazzy updates. 
+          I am an Economics & Geography undergraduate student at the University of Texas at Austin. I'm also a huge fan of learning and I often partake in activites that involve maps, coding, music, and archery. <br/> Thank you for visiting my website! 
         </p>
       </div>
 
       <div className='py-10 flex flex-col'>
-        <h3 className='subhead-text'>My Skills</h3>
+        <h3 className='subhead-text'>My Skills.</h3>
 
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map((skill) => (

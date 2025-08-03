@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { Navbar, Footer } from "./components";
-import { About, Contact, Home, Projects } from "./pages";
+import { About, Contact, Home, Projects, Portfolio} from "./pages";
 import './index.css';
 
 const App = () => {
@@ -8,6 +8,7 @@ const App = () => {
   const aboutRef = useRef(null);
   const projectsRef = useRef(null);
   const contactRef = useRef(null);
+  const portfolioRef = useRef(null);
 
   const offset = -70;
   
@@ -29,7 +30,7 @@ const App = () => {
     <main >
       <Navbar
         scrollToSection={scrollToSection}
-        refs={{ homeRef, aboutRef, projectsRef, contactRef }} 
+        refs={{ homeRef, aboutRef, projectsRef, contactRef, portfolioRef}} 
       />
       <section ref={homeRef} className="neo-brutalism-white pt-0">
         <Home />
@@ -39,6 +40,9 @@ const App = () => {
       </section>
       <section ref={projectsRef} className="neo-brutalism-white mb-0">
         <Projects />
+      </section>
+      <section ref={portfolioRef} className="neo-brutalism-white mb-0">
+        <Portfolio />
       </section>
       {/* <section ref={contactRef} className="neo-brutalism-white">
         <Contact />
