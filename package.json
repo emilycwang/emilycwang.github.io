@@ -1,42 +1,25 @@
 {
-  "homepage": "https://emilycwang.github.io/",
-  "name": "portfolio",
+  "name": "portfolio-shader-gradient",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emailjs/browser": "^4.4.1",
-    "@react-three/drei": "^9.115.0",
-    "framer-motion": "^11.11.11",
+    "@react-three/fiber": "^8.17.0",
+    "@shadergradient/react": "^2.0.0",
+    "camera-controls": "^2.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.28.0",
-    "react-slick": "^0.30.3",
-    "react-vertical-timeline-component": "^3.6.0",
-    "slick-carousel": "^1.8.1"
+    "three": "^0.169.0",
+    "three-stdlib": "^2.0.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.13.0",
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
-    "@vitejs/plugin-react": "^4.3.3",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^9.13.0",
-    "eslint-plugin-react": "^7.37.2",
-    "eslint-plugin-react-hooks": "^5.0.0",
-    "eslint-plugin-react-refresh": "^0.4.14",
-    "gh-pages": "^6.3.0",
-    "globals": "^15.11.0",
-    "postcss": "^8.4.48",
-    "tailwindcss": "^3.4.17",
+    "@types/three": "^0.169.0",
+    "@vitejs/plugin-react": "^4.3.1",
     "vite": "^5.4.10"
   }
 }
