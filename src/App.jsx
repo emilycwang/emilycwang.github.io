@@ -5,12 +5,11 @@ import './index.css'
 
 const rotatingPhrases = [
   'UT Austin Alum',
-  'Analyst',
   'Procurement @ IBM'
 ]
 
 const aboutText =
-  "Data analytics at a non-profit (WWF). Survey statistics at a government agency (USDA). Procurement and admin in higher education (UT Austin Department of Computer Science). Currently, procurement data & AI at IBM. Always volunteering, always learning.";
+  "My experience spans data analytics at WWF, survey statistics at USDA, and procurement and administration at UT Austin’s Department of Computer Science. I now work at IBM, developing MCP servers for procurement professionals. Outside of work, I’m committed to volunteering and lifelong learning.";
 
 function App() {
   const [activePhrase, setActivePhrase] = useState(0)
